@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проводник</title>
+    <link rel="icon" type="image/x-icon" href="../icons/favicon2.svg">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/nav.css">
+    <link rel="stylesheet" href="../styles/modal.css">
+    <link rel="stylesheet" href="../styles/account.css">
+    <script src="../scripts/main.js"></script>
+    <script src="../scripts/modal.js"></script>
+</head>
+<body>
+    <header>
+        <nav id="top-nav">
+            <div>
+                <img src="../icons/ticket-perforated-fill.svg">
+                <a href="../index.html">К билетам</a>
+            </div>
+            <div>
+                <img src="../icons/train-front-fill.svg">
+                <a href="../pages/trains.html">Поезда</a>
+            </div>
+            <div>
+                <img src="../icons/airplane-fill.svg">
+                <a href="../pages/planes.html">Самолеты</a>
+            </div>           
+            <div>
+                <img src="../icons/bus-front-fill.svg">
+                <a href="#">Автобусы</a>
+            </div>        
+            <span>|</span>
+            <div>
+                <img src="../icons/info-circle-fill.svg">
+                <a href="../pages/info.html">О нас</a>
+            </div>
+            <div>
+                <img src="../icons/question-circle-fill.svg">
+                <a href="../pages/support.html">Обратная связь</a>
+            </div>
+            <div>
+                <img src="../icons/person-circle.svg">
+                <a id="toAccount" onclick="openModal()">Личный кабинет</a>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="main-block">
+            <section>
+                <div>
+                    <section id="photo-block">
+                    </section>
+                </div>
+                <div>
+                    <section id="option-block">
+                        <div>
+                            <img src="../icons/info-circle-fill.svg">
+                            <a href="../pages/info.html">О нас</a>
+                        </div>
+                        <div>
+                            <img src="../icons/info-circle-fill.svg">
+                            <a href="../pages/info.html">О нас</a>
+                        </div>
+                    </section>
+                </div>           
+            </section>
+            <section id="personal-block">
+                <div>
+                    <label>Имя пользователя</label>
+                    <div>
+                        <input class="text-field__input" type="text" name="firstname" id="firstname" disabled>
+                    </div>
+                </div>
+                <div>
+                    <label>Электронная почта</label>
+                    <div>
+                        <input class="text-field__input" type="email" name="email" id="email" disabled>
+                    </div>
+                </div>
+                <div>
+                    <label>Город пользователя</label>
+                    <div>
+                        <input class="text-field__input" type="text" name="city" id="city" disabled>
+                    </div>                    
+                </div>
+                <div>
+                    <label>Ваша дата рождения</label>
+                    <div>
+                        <input class="text-field__input" type="text" name="birth" id="birth" disabled>
+                    </div>                   
+                </div>
+                <div>
+                    <label>Ваш уникальный ID</label>
+                    <div>
+                        <input class="text-field__input" type="text" name="identificator" id="identificator" disabled>
+                    </div>                 
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer>  
+        Баландин Евгений Геннадьевич<br>
+        ПГУПС императора Александра I<br>
+        ИВБ-015<br>
+        2024
+    </footer>
+
+</body>
+</html>

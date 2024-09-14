@@ -1,0 +1,32 @@
+#top-nav {
+    color: black;
+    display: flex;
+    padding-top: 0.3em; /* 5pt примерно равно 0.3em */
+    padding-bottom: 1em; /* 15pt примерно равно 1em */
+    justify-content: space-between;
+    max-width: 1000px; /* максимальная ширина 1000px */
+    width: 100%; /* занимает 100% доступного пространства */
+    margin: auto;
+    white-space: nowrap;
+    font-size: 1em; /* базовый размер шрифта */
+}
+
+nav img {
+    vertical-align: text-top;
+}
+
+#top-nav a {
+    padding: 0.6em; /* 10pt примерно равно 0.6em */
+    padding-top: 0; /* оставляем 0 */
+    font-size: 1em; /* 12pt примерно равно 1em */
+    display: inline-block;
+}
+
+#top-nav a:link, #top-nav a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+#top-nav a:active, #top-nav a:hover {
+    color: red;
+}

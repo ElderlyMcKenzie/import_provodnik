@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проводник</title>
+    <link rel="icon" type="image/x-icon" href="../icons/favicon2.svg">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/nav.css">
+    <link rel="stylesheet" href="../styles/modal.css">
+    <script src="../scripts/main.js"></script>
+    <script src="../scripts/modal.js"></script>
+</head>
+<body>
+    <header>
+                <nav id="top-nav">
+            <div>
+                <img src="../icons/ticket-perforated-fill.svg">
+                <a href="../index.html">К билетам</a>
+            </div>
+            <div>
+                <img src="../icons/train-front-fill.svg">
+                <a href="../pages/trains.html">Поезда</a>
+            </div>
+            <div>
+                <img src="../icons/airplane-fill.svg">
+                <a href="../pages/planes.html">Самолеты</a>
+            </div>           
+            <div>
+                <img src="../icons/bus-front-fill.svg">
+                <a href="#">Автобусы</a>
+            </div>        
+            <span>|</span>
+            <div>
+                <img src="../icons/info-circle-fill.svg">
+                <a href="../pages/info.html">О нас</a>
+            </div>
+            <div>
+                <img src="../icons/question-circle-fill.svg">
+                <a href="../pages/support.html">Обратная связь</a>
+            </div>
+            <div>
+                <img src="../icons/person-circle.svg">
+                <a id="toAccount" onclick="openModal()">Личный кабинет</a>
+            </div>
+        </nav>
+        <section>
+            <div class="overlay" id="overlay"></div>
+            <div class="modal" id="modal">
+                <div>
+                    <h2>Вход в личный кабинет</h2>
+                </div>
+                <div>
+                    <button class="blue" onclick="window.location.href='login.html'">Войти в аккаунт</button>
+                </div>
+                <div>
+                    <button class="blue" onclick="window.location.href='signup.html'">Зарегистрироваться</button>
+                </div>
+                <div class="close">
+                    <button onclick="closeModal()">Закрыть</button>
+                </div>
+            </div>
+        </section>
+    </header>
+    
+    <main>
+        <h2> 
+            Данный раздел пока еще не находится в разработке, но мы полагаем, что здесь
+            вы что-нибудь интересное в будущем. Следите за обновлениями!
+        </h2>
+    </main>
+
+    <footer>  
+        Баландин Евгений Геннадьевич<br>
+        ПГУПС императора Александра I<br>
+        ИВБ-015<br>
+        2024
+    </footer>
+
+</body>
+</html>

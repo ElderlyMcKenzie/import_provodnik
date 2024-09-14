@@ -1,0 +1,191 @@
+/* Стиль для экранов до 768px */
+@media screen and (max-width: 768px) {
+    body {
+        background-color: #f5f5dc; /* Бежевый цвет */
+        background-image: none; /* Убираем фоновое изображение */
+    }
+
+    header {
+        text-align: center;
+    }
+
+    span {
+        display: none;
+    }
+
+    #top-nav {
+        min-width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #top-nav div {
+        padding-top: 10px;
+        margin: 5px;
+        border: 3px solid black;
+        background-color: #f2f2f2;
+        border-radius: 10px;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    input#from,
+    input#to,
+    input#date {
+        text-align: center;
+        height: 30px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 75%;
+        margin: 5px auto;
+    }
+
+    .description-section {
+        display: none;
+    }
+
+    .ticket-section {
+        min-width: 200px;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .search-box {
+        min-width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search-box input {
+        width: 70%;
+        margin: 10px;
+        padding: 10px;
+        font-size: 0.9em; /* Уменьшаем размер шрифта */
+    }
+
+    .search-box button {
+        width: 75% !important;
+        min-width: 100px;
+        padding: 10px;
+        margin: 10px;
+        font-size: 0.9em; /* Уменьшаем размер шрифта */
+    }
+
+    .advantages {
+        display: none;
+    }
+
+    footer {
+        position: sticky;
+        bottom: 0;
+        width: 75%;
+        padding: 20px;
+        text-align: center;
+        font-size: 0.9em;
+        color: black;
+        text-shadow: none; /* Убираем текстовую тень */
+        border: 3px solid black;
+        background-color: #f2f2f2;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .modal {
+        width: 80%;
+        padding: 20px;
+    }
+
+    .modal button {
+        width: 100%;
+        margin: 10px 0;
+        font-size: 0.9em; /* Уменьшаем размер шрифта */
+    }
+
+    .route-container {
+        margin: auto;
+        width: 75%;
+        margin-bottom: 20px;
+    }
+
+    .route-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+        background-color: #f2f2f2;
+    }
+
+    .route-details div {
+        margin-bottom: 10px;
+    }
+
+    .route-details > div:first-child {   
+        width: 75%;
+        background-color: #7f3232;
+        color: white;
+        padding: 10px;
+        border-radius: 15px;
+        margin-bottom: 10px;
+    }
+
+    .route-details > div:nth-child(2) {
+        width: 75%;
+        background-color: #3f5e5e;
+        color: white;
+        padding: 10px;
+        border-radius: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .route-details > div:nth-child(4) {
+        width: 75%;
+        background-color: #3f5e5e;
+        color: white;
+        padding: 10px;
+        border-radius: 15px;
+        margin-bottom: 10px;
+    }
+
+    .route-details > div:last-child {
+        display: none;
+    }
+
+    .arrow svg {
+        width: 120px;
+        height: 16px;
+    }
+
+    .transfer-route-container {
+        margin: auto;
+        width: 90%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .route-cell {
+        display: flex;
+        flex-direction: column; /* Располагаем элементы в колонку */
+        align-items: center; /* Центрируем элементы по горизонтали */
+        padding: 15px;
+    }
+    
+    .route-cell > div {
+        width: 100%; /* Занимать всю ширину родительского элемента */
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column; /* Размещаем элементы сверху вниз */
+        justify-content: center; /* Центрируем содержимое по горизонтали */
+        align-items: center; /* Центрируем содержимое по вертикали */
+        text-align: center;
+    }
+
+    .transfer-caption {
+        display: none; /* Скрываем заголовок "Пересадочный маршрут" */
+    }
+}

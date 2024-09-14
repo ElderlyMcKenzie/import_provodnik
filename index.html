@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <script>
+             fetch("http://localhost:8000/suggest?sample=мос").then(data => data.text()).then(text => document.getElementById("body").innerHTML = text);
+        </script>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body id="body">
+
+</body>
+</html>

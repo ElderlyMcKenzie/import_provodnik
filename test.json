@@ -1,0 +1,3429 @@
+[
+  {
+    'dictionary': {
+      'avia': {
+        'points': None,
+        'vehicles': None,
+        'voyages': None,
+        'conditions': None,
+        'feedback': None
+      },
+      'train': {
+        'points': {},
+        'vehicles': {},
+        'voyages': {},
+        'conditions': {},
+        'feedback': {}
+      },
+      'bus': {
+        'points': None,
+        'feedback': None,
+        'conditions': None,
+        'voyages': None
+      },
+      'common': {
+        'carriers': {},
+        'cities': {},
+        'countries': {},
+        'routes': {},
+        'segments': {},
+        'transfers': {},
+        'fareApplications': {},
+        'currency': None,
+        'bookingUpsales': {}
+      }
+    },
+    'offers': {
+      'actual': {},
+      'past': {},
+      'future': {}
+    },
+    'requestDateTime': '2024-06-03T03:59:35+03:00',
+    'warnings': []
+  },
+  {
+    'dictionary': {
+      'avia': {
+        'points': None,
+        'vehicles': None,
+        'voyages': None,
+        'conditions': None,
+        'feedback': None
+      },
+      'train': {
+        'points': {
+          '2957768': {
+            'cityId': 2657260,
+            'code': '2000007',
+            'name': {
+              'accusative': 'Киевский вокзал',
+              'dative': 'Киевскому вокзалу',
+              'genitive': 'Киевского вокзала',
+              'instrumental': 'Киевским вокзалом',
+              'nominative': 'Киевский вокзал',
+              'prepositional': 'Киевском вокзале'
+            },
+            'tzName': 'Europe/Moscow',
+            'railwayTzName': 'Europe/Moscow'
+          },
+          '2957852': {
+            'cityId': 2656859,
+            'code': '2000160',
+            'name': {
+              'accusative': 'Брянск-Орловский',
+              'dative': 'Брянску-Орловскому',
+              'genitive': 'Брянска-Орловского',
+              'instrumental': 'Брянском-Орловским',
+              'nominative': 'Брянск-Орловский',
+              'prepositional': 'Брянске-Орловском'
+            },
+            'tzName': 'Europe/Moscow',
+            'railwayTzName': 'Europe/Moscow'
+          },
+          '2992301': {
+            'cityId': 3247043,
+            'code': '2000790',
+            'name': {
+              'accusative': 'Климово (Климов, Моск.ж.д.)',
+              'dative': 'Климово (Климов, Моск.ж.д.)',
+              'genitive': 'Климово (Климов, Моск.ж.д.)',
+              'instrumental': 'Климово (Климов, Моск.ж.д.)',
+              'nominative': 'Климово (Климов, Моск.ж.д.)',
+              'prepositional': 'Климово (Климов, Моск.ж.д.)'
+            },
+            'tzName': 'Europe/Moscow',
+            'railwayTzName': 'Europe/Moscow'
+          }
+        },
+        'vehicles': {
+          'ba0acfaf414f1d17ebdea9a012c127db': {
+            'name': 'Иван Паристый',
+            'photo': False,
+            'tour3d': False,
+            'isPremium': True,
+            'isTutuPremium': False,
+            'isDoubleDecker': False
+          },
+          'c042c98039b5e7beb36771f56b9cdc4b': {
+            'name': '',
+            'photo': False,
+            'tour3d': False,
+            'isPremium': False,
+            'isTutuPremium': False,
+            'isDoubleDecker': False
+          }
+        },
+        'voyages': {
+          '03d06319afe8cf13ecdf910cd12c0e50': {
+            'number': '738А',
+            'numberForPassengers': '738А',
+            'onlineRegistrationStatus': 'opened',
+            'cars': [
+              {
+                'type': 'SEDENTARY',
+                'seatsGroups': [
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  },
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  },
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  },
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  },
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  },
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  }
+                ],
+                'isNoInterchangeCar': False
+              },
+              {
+                'type': 'COMPARTMENT',
+                'seatsGroups': [
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  },
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  }
+                ],
+                'isNoInterchangeCar': False
+              },
+              {
+                'type': 'LUX',
+                'seatsGroups': [
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  }
+                ],
+                'isNoInterchangeCar': False
+              }
+            ],
+            'initialDepartureGeoPointId': 2957852,
+            'finalArrivalGeoPointId': 2957768,
+            'stops': [
+              {
+                'arrivalTime': '',
+                'departureTime': '2024-06-03T06:57:00+03:00',
+                'stopDuration': '0',
+                'name': 'Брянск-Орловский'
+              },
+              {
+                'arrivalTime': '2024-06-03T08:05:00+03:00',
+                'departureTime': '2024-06-03T08:09:00+03:00',
+                'stopDuration': '4',
+                'name': 'Сухиничи-Главные'
+              },
+              {
+                'arrivalTime': '2024-06-03T09:01:00+03:00',
+                'departureTime': '2024-06-03T09:04:00+03:00',
+                'stopDuration': '3',
+                'name': 'Калуга - Сергиев Скит (бывш. Калуга-2)'
+              },
+              {
+                'arrivalTime': '2024-06-03T11:05:00+03:00',
+                'departureTime': '',
+                'stopDuration': '0',
+                'name': 'Москва Киевская'
+              }
+            ],
+            'openSalesDatetime': ''
+          },
+          '6dc24b8f6a056e4582a37b3f6681016d': {
+            'number': '740А',
+            'numberForPassengers': '740А',
+            'onlineRegistrationStatus': 'opened',
+            'cars': [
+              {
+                'type': 'SEDENTARY',
+                'seatsGroups': [
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  },
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  },
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  },
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  },
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  },
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  }
+                ],
+                'isNoInterchangeCar': False
+              },
+              {
+                'type': 'LUX',
+                'seatsGroups': [
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  }
+                ],
+                'isNoInterchangeCar': False
+              },
+              {
+                'type': 'COMPARTMENT',
+                'seatsGroups': [
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  },
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  }
+                ],
+                'isNoInterchangeCar': False
+              }
+            ],
+            'initialDepartureGeoPointId': 2957852,
+            'finalArrivalGeoPointId': 2957768,
+            'stops': [
+              {
+                'arrivalTime': '',
+                'departureTime': '2024-06-03T13:23:00+03:00',
+                'stopDuration': '0',
+                'name': 'Брянск-Орловский'
+              },
+              {
+                'arrivalTime': '2024-06-03T14:31:00+03:00',
+                'departureTime': '2024-06-03T14:35:00+03:00',
+                'stopDuration': '4',
+                'name': 'Сухиничи-Главные'
+              },
+              {
+                'arrivalTime': '2024-06-03T15:27:00+03:00',
+                'departureTime': '2024-06-03T15:30:00+03:00',
+                'stopDuration': '3',
+                'name': 'Калуга - Сергиев Скит (бывш. Калуга-2)'
+              },
+              {
+                'arrivalTime': '2024-06-03T17:31:00+03:00',
+                'departureTime': '',
+                'stopDuration': '0',
+                'name': 'Москва Киевская'
+              }
+            ],
+            'openSalesDatetime': ''
+          },
+          'ccc383f1d32ce09bcee0a69c7841657d': {
+            'number': '086Ч',
+            'numberForPassengers': '086Ч',
+            'onlineRegistrationStatus': 'opened',
+            'cars': [
+              {
+                'type': 'COMPARTMENT',
+                'seatsGroups': [
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  },
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  },
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  }
+                ],
+                'isNoInterchangeCar': False
+              },
+              {
+                'type': 'RESERVED_SEAT',
+                'seatsGroups': [
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  },
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  },
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  },
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  }
+                ],
+                'isNoInterchangeCar': False
+              },
+              {
+                'type': 'SEDENTARY',
+                'seatsGroups': [
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  },
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  },
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  }
+                ],
+                'isNoInterchangeCar': False
+              },
+              {
+                'type': 'SOFT',
+                'seatsGroups': [
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  },
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  }
+                ],
+                'isNoInterchangeCar': False
+              },
+              {
+                'type': 'SHARED',
+                'seatsGroups': [
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  }
+                ],
+                'isNoInterchangeCar': False
+              },
+              {
+                'type': 'LUX',
+                'seatsGroups': [
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  },
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  }
+                ],
+                'isNoInterchangeCar': False
+              }
+            ],
+            'initialDepartureGeoPointId': 2992301,
+            'finalArrivalGeoPointId': 2957768,
+            'stops': [
+              {
+                'arrivalTime': '2024-06-02T23:35:00+03:00',
+                'departureTime': '2024-06-03T00:20:00+03:00',
+                'stopDuration': '45',
+                'name': 'Брянск-Орловский'
+              },
+              {
+                'arrivalTime': '2024-06-03T01:45:00+03:00',
+                'departureTime': '2024-06-03T02:15:00+03:00',
+                'stopDuration': '30',
+                'name': 'Сухиничи-Главные'
+              },
+              {
+                'arrivalTime': '2024-06-03T03:05:00+03:00',
+                'departureTime': '2024-06-03T03:07:00+03:00',
+                'stopDuration': '2',
+                'name': 'Воротынск'
+              },
+              {
+                'arrivalTime': '2024-06-03T03:20:00+03:00',
+                'departureTime': '2024-06-03T03:35:00+03:00',
+                'stopDuration': '15',
+                'name': 'Калуга - Сергиев Скит (бывш. Калуга-2)'
+              },
+              {
+                'arrivalTime': '2024-06-03T04:22:00+03:00',
+                'departureTime': '2024-06-03T04:24:00+03:00',
+                'stopDuration': '2',
+                'name': 'Малоярославец'
+              },
+              {
+                'arrivalTime': '2024-06-03T04:49:00+03:00',
+                'departureTime': '2024-06-03T04:51:00+03:00',
+                'stopDuration': '2',
+                'name': 'Балабаново'
+              },
+              {
+                'arrivalTime': '2024-06-03T05:16:00+03:00',
+                'departureTime': '2024-06-03T05:18:00+03:00',
+                'stopDuration': '2',
+                'name': 'Бекасово-1'
+              },
+              {
+                'arrivalTime': '2024-06-03T06:20:00+03:00',
+                'departureTime': '',
+                'stopDuration': '0',
+                'name': 'Москва Киевская'
+              }
+            ],
+            'openSalesDatetime': ''
+          },
+          'ed9e972288b40c5050fa2b1ffa9133c1': {
+            'number': '742В',
+            'numberForPassengers': '742В',
+            'onlineRegistrationStatus': 'opened',
+            'cars': [
+              {
+                'type': 'SEDENTARY',
+                'seatsGroups': [
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  },
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  },
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  },
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  },
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  },
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  }
+                ],
+                'isNoInterchangeCar': False
+              },
+              {
+                'type': 'COMPARTMENT',
+                'seatsGroups': [
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  },
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  }
+                ],
+                'isNoInterchangeCar': False
+              },
+              {
+                'type': 'LUX',
+                'seatsGroups': [
+                  {
+                    'type': 'UNDEFINED',
+                    'seatsCount': 0,
+                    'isGender': False
+                  }
+                ],
+                'isNoInterchangeCar': False
+              }
+            ],
+            'initialDepartureGeoPointId': 2957852,
+            'finalArrivalGeoPointId': 2957768,
+            'stops': [
+              {
+                'arrivalTime': '',
+                'departureTime': '2024-06-03T19:02:00+03:00',
+                'stopDuration': '0',
+                'name': 'Брянск-Орловский'
+              },
+              {
+                'arrivalTime': '2024-06-03T20:10:00+03:00',
+                'departureTime': '2024-06-03T20:14:00+03:00',
+                'stopDuration': '4',
+                'name': 'Сухиничи-Главные'
+              },
+              {
+                'arrivalTime': '2024-06-03T21:06:00+03:00',
+                'departureTime': '2024-06-03T21:09:00+03:00',
+                'stopDuration': '3',
+                'name': 'Калуга - Сергиев Скит (бывш. Калуга-2)'
+              },
+              {
+                'arrivalTime': '2024-06-03T23:10:00+03:00',
+                'departureTime': '',
+                'stopDuration': '0',
+                'name': 'Москва Киевская'
+              }
+            ],
+            'openSalesDatetime': ''
+          }
+        },
+        'conditions': {
+          '00c9d40a7882313a21a498265dfb2679': {
+            'changeability': False,
+            'refundability': True,
+            'carType': 'COMPARTMENT',
+            'seatType': 'UNDEFINED',
+            'services': [
+              {
+                'name': 'BEDDING',
+                'enabled': True
+              },
+              {
+                'name': 'AIR_CONDITIONING',
+                'enabled': True
+              },
+              {
+                'name': 'BIO_TOILET',
+                'enabled': True
+              },
+              {
+                'name': 'BUFFET',
+                'enabled': True
+              },
+              {
+                'name': 'MEDIA_ENTERTAINMENT',
+                'enabled': True
+              },
+              {
+                'name': 'PRESS',
+                'enabled': True
+              },
+              {
+                'name': 'WITH_PETS',
+                'enabled': True
+              },
+              {
+                'name': 'MEAL_ADDITIONAL',
+                'enabled': False
+              }
+            ]
+          },
+          '06d6b7760fe9fe66e2c43fee5141d8a4': {
+            'changeability': False,
+            'refundability': True,
+            'carType': 'COMPARTMENT',
+            'seatType': 'UNDEFINED',
+            'services': [
+              {
+                'name': 'BEDDING',
+                'enabled': True
+              },
+              {
+                'name': 'BUFFET',
+                'enabled': True
+              },
+              {
+                'name': 'MEDIA_ENTERTAINMENT',
+                'enabled': True
+              },
+              {
+                'name': 'AIR_CONDITIONING',
+                'enabled': True
+              },
+              {
+                'name': 'BIO_TOILET',
+                'enabled': True
+              },
+              {
+                'name': 'PRESS',
+                'enabled': True
+              },
+              {
+                'name': 'WITH_PETS',
+                'enabled': True
+              },
+              {
+                'name': 'MEAL_ADDITIONAL',
+                'enabled': False
+              }
+            ]
+          },
+          '0a09b4af861a34b819117117b5ad4ab8': {
+            'changeability': False,
+            'refundability': True,
+            'carType': 'COMPARTMENT',
+            'seatType': 'UNDEFINED',
+            'services': [
+              {
+                'name': 'BEDDING',
+                'enabled': True
+              },
+              {
+                'name': 'BUFFET',
+                'enabled': True
+              },
+              {
+                'name': 'MEDIA_ENTERTAINMENT',
+                'enabled': True
+              },
+              {
+                'name': 'AIR_CONDITIONING',
+                'enabled': True
+              },
+              {
+                'name': 'BIO_TOILET',
+                'enabled': True
+              },
+              {
+                'name': 'MEAL_ADDITIONAL',
+                'enabled': False
+              }
+            ]
+          },
+          '11549a4c801e9b0386614b60469b32ae': {
+            'changeability': False,
+            'refundability': True,
+            'carType': 'COMPARTMENT',
+            'seatType': 'UNDEFINED',
+            'services': [
+              {
+                'name': 'BEDDING',
+                'enabled': True
+              },
+              {
+                'name': 'AIR_CONDITIONING',
+                'enabled': True
+              },
+              {
+                'name': 'BIO_TOILET',
+                'enabled': True
+              },
+              {
+                'name': 'BUFFET',
+                'enabled': True
+              },
+              {
+                'name': 'MEDIA_ENTERTAINMENT',
+                'enabled': True
+              },
+              {
+                'name': 'MEAL_ADDITIONAL',
+                'enabled': False
+              }
+            ]
+          },
+          '2c53ed3b5412a40312abe205649d8e59': {
+            'changeability': False,
+            'refundability': True,
+            'carType': 'SEDENTARY',
+            'seatType': 'UNDEFINED',
+            'services': [
+              {
+                'name': 'WITH_PETS',
+                'enabled': True
+              },
+              {
+                'name': 'AIR_CONDITIONING',
+                'enabled': True
+              },
+              {
+                'name': 'BIO_TOILET',
+                'enabled': True
+              },
+              {
+                'name': 'BUFFET',
+                'enabled': True
+              },
+              {
+                'name': 'MEAL_ADDITIONAL',
+                'enabled': False
+              }
+            ]
+          },
+          '2d255434885b4e1551e596b978d16e3c': {
+            'changeability': False,
+            'refundability': True,
+            'carType': 'RESERVED_SEAT',
+            'seatType': 'UNDEFINED',
+            'services': [
+              {
+                'name': 'AIR_CONDITIONING',
+                'enabled': True
+              },
+              {
+                'name': 'BIO_TOILET',
+                'enabled': True
+              },
+              {
+                'name': 'BEDDING',
+                'enabled': False
+              }
+            ]
+          },
+          '33defe0de5b218cdfd01af818f3cb83c': {
+            'changeability': False,
+            'refundability': True,
+            'carType': 'LUX',
+            'seatType': 'UNDEFINED',
+            'services': [
+              {
+                'name': 'BEDDING',
+                'enabled': True
+              },
+              {
+                'name': 'MEAL',
+                'enabled': True
+              },
+              {
+                'name': 'AIR_CONDITIONING',
+                'enabled': True
+              },
+              {
+                'name': 'BIO_TOILET',
+                'enabled': True
+              },
+              {
+                'name': 'BUFFET',
+                'enabled': True
+              },
+              {
+                'name': 'MEDIA_ENTERTAINMENT',
+                'enabled': True
+              },
+              {
+                'name': 'PRESS',
+                'enabled': True
+              },
+              {
+                'name': 'WITH_PETS',
+                'enabled': True
+              },
+              {
+                'name': 'IMPROVED_SERVICES',
+                'enabled': True
+              },
+              {
+                'name': 'MEAL_SELECTION',
+                'enabled': True
+              },
+              {
+                'name': 'MEAL_ADDITIONAL',
+                'enabled': False
+              },
+              {
+                'name': 'HYGENIC_KIT',
+                'enabled': True
+              }
+            ]
+          },
+          '40061219673dbf55d6e8fea69e578e2e': {
+            'changeability': False,
+            'refundability': True,
+            'carType': 'SEDENTARY',
+            'seatType': 'UNDEFINED',
+            'services': [
+              {
+                'name': 'FOR_PEOPLE_WITH_CHILDREN',
+                'enabled': True
+              },
+              {
+                'name': 'AIR_CONDITIONING',
+                'enabled': True
+              },
+              {
+                'name': 'BIO_TOILET',
+                'enabled': True
+              },
+              {
+                'name': 'BUFFET',
+                'enabled': True
+              },
+              {
+                'name': 'MEDIA_ENTERTAINMENT',
+                'enabled': True
+              },
+              {
+                'name': 'MEAL_ADDITIONAL',
+                'enabled': False
+              },
+              {
+                'name': 'PRESS',
+                'enabled': True
+              }
+            ]
+          },
+          '48ea4f301b57a7f3bb3fe8dd35308db8': {
+            'changeability': False,
+            'refundability': True,
+            'carType': 'COMPARTMENT',
+            'seatType': 'UNDEFINED',
+            'services': [
+              {
+                'name': 'BEDDING',
+                'enabled': True
+              },
+              {
+                'name': 'WITH_PETS',
+                'enabled': True
+              },
+              {
+                'name': 'AIR_CONDITIONING',
+                'enabled': True
+              }
+            ]
+          },
+          '5dbd56fa6356ff4190399375f515d2d0': {
+            'changeability': False,
+            'refundability': True,
+            'carType': 'SEDENTARY',
+            'seatType': 'UNDEFINED',
+            'services': [
+              {
+                'name': 'AIR_CONDITIONING',
+                'enabled': True
+              },
+              {
+                'name': 'BIO_TOILET',
+                'enabled': True
+              },
+              {
+                'name': 'BUFFET',
+                'enabled': True
+              },
+              {
+                'name': 'MEAL_ADDITIONAL',
+                'enabled': False
+              }
+            ]
+          },
+          '60fbac2009fa80ff26ece94b2c22f80c': {
+            'changeability': False,
+            'refundability': True,
+            'carType': 'LUX',
+            'seatType': 'UNDEFINED',
+            'services': [
+              {
+                'name': 'BEDDING',
+                'enabled': True
+              },
+              {
+                'name': 'AIR_CONDITIONING',
+                'enabled': True
+              },
+              {
+                'name': 'BIO_TOILET',
+                'enabled': True
+              },
+              {
+                'name': 'WITH_PETS',
+                'enabled': True
+              }
+            ]
+          },
+          '62ab6c70df8e68639521f845c6f8a9f1': {
+            'changeability': False,
+            'refundability': True,
+            'carType': 'SOFT',
+            'seatType': 'UNDEFINED',
+            'services': [
+              {
+                'name': 'BEDDING',
+                'enabled': True
+              },
+              {
+                'name': 'AIR_CONDITIONING',
+                'enabled': True
+              },
+              {
+                'name': 'BIO_TOILET',
+                'enabled': True
+              },
+              {
+                'name': 'HYGENIC_SHOWER',
+                'enabled': True
+              },
+              {
+                'name': 'TV',
+                'enabled': True
+              },
+              {
+                'name': 'HYGENIC_KIT',
+                'enabled': True
+              },
+              {
+                'name': 'PRESS',
+                'enabled': True
+              },
+              {
+                'name': 'SHOWER_IN_COMPARTMENT',
+                'enabled': True
+              },
+              {
+                'name': 'WASHBASIN',
+                'enabled': True
+              },
+              {
+                'name': 'WITH_PETS',
+                'enabled': True
+              }
+            ]
+          },
+          '689f6d936524ca54912b74a261bf698b': {
+            'changeability': False,
+            'refundability': True,
+            'carType': 'SEDENTARY',
+            'seatType': 'UNDEFINED',
+            'services': [
+              {
+                'name': 'AIR_CONDITIONING',
+                'enabled': True
+              },
+              {
+                'name': 'BIO_TOILET',
+                'enabled': True
+              }
+            ]
+          },
+          '6a58caacb31cf108403de4d7732ace93': {
+            'changeability': False,
+            'refundability': True,
+            'carType': 'COMPARTMENT',
+            'seatType': 'UNDEFINED',
+            'services': [
+              {
+                'name': 'BEDDING',
+                'enabled': True
+              },
+              {
+                'name': 'AIR_CONDITIONING',
+                'enabled': True
+              },
+              {
+                'name': 'BIO_TOILET',
+                'enabled': True
+              },
+              {
+                'name': 'WITH_PETS',
+                'enabled': True
+              }
+            ]
+          },
+          '6d1ef5046c6145b10e586818a745419e': {
+            'changeability': False,
+            'refundability': True,
+            'carType': 'LUX',
+            'seatType': 'UNDEFINED',
+            'services': [
+              {
+                'name': 'BEDDING',
+                'enabled': True
+              },
+              {
+                'name': 'AIR_CONDITIONING',
+                'enabled': True
+              },
+              {
+                'name': 'WITH_PETS',
+                'enabled': True
+              }
+            ]
+          },
+          '6e87d99e3634378177a6073fca161feb': {
+            'changeability': False,
+            'refundability': True,
+            'carType': 'SEDENTARY',
+            'seatType': 'UNDEFINED',
+            'services': [
+              {
+                'name': 'MEAL',
+                'enabled': True
+              },
+              {
+                'name': 'AIR_CONDITIONING',
+                'enabled': True
+              },
+              {
+                'name': 'BIO_TOILET',
+                'enabled': True
+              },
+              {
+                'name': 'BUFFET',
+                'enabled': True
+              },
+              {
+                'name': 'MEDIA_ENTERTAINMENT',
+                'enabled': True
+              },
+              {
+                'name': 'HYGENIC_SHOWER',
+                'enabled': True
+              },
+              {
+                'name': 'HYGENIC_KIT',
+                'enabled': True
+              },
+              {
+                'name': 'PRESS',
+                'enabled': True
+              },
+              {
+                'name': 'PLAID',
+                'enabled': True
+              },
+              {
+                'name': 'MEAL_SELECTION',
+                'enabled': True
+              },
+              {
+                'name': 'MEAL_ADDITIONAL',
+                'enabled': False
+              }
+            ]
+          },
+          '704f860a79d656be70a70765c4dbba6e': {
+            'changeability': False,
+            'refundability': True,
+            'carType': 'RESERVED_SEAT',
+            'seatType': 'UNDEFINED',
+            'services': [
+              {
+                'name': 'BEDDING',
+                'enabled': False
+              },
+              {
+                'name': 'WITH_PETS',
+                'enabled': True
+              }
+            ]
+          },
+          '8587a9d35d5ac2db1f875620ad3b516f': {
+            'changeability': False,
+            'refundability': True,
+            'carType': 'COMPARTMENT',
+            'seatType': 'UNDEFINED',
+            'services': [
+              {
+                'name': 'BEDDING',
+                'enabled': True
+              },
+              {
+                'name': 'WITH_PETS',
+                'enabled': True
+              }
+            ]
+          },
+          '8aa0d7d3d511ba420610737da71c580a': {
+            'changeability': False,
+            'refundability': True,
+            'carType': 'RESERVED_SEAT',
+            'seatType': 'UNDEFINED',
+            'services': [
+              {
+                'name': 'BEDDING',
+                'enabled': False
+              }
+            ]
+          },
+          '8c469919c2f0a1f253001605c2253677': {
+            'changeability': False,
+            'refundability': True,
+            'carType': 'SEDENTARY',
+            'seatType': 'UNDEFINED',
+            'services': []
+          },
+          '8f354acddb71f2d2e36e2031da320c09': {
+            'changeability': False,
+            'refundability': True,
+            'carType': 'SEDENTARY',
+            'seatType': 'UNDEFINED',
+            'services': [
+              {
+                'name': 'MEAL',
+                'enabled': True
+              },
+              {
+                'name': 'AIR_CONDITIONING',
+                'enabled': True
+              },
+              {
+                'name': 'BIO_TOILET',
+                'enabled': True
+              },
+              {
+                'name': 'BUFFET',
+                'enabled': True
+              },
+              {
+                'name': 'MEDIA_ENTERTAINMENT',
+                'enabled': True
+              },
+              {
+                'name': 'HYGENIC_SHOWER',
+                'enabled': True
+              },
+              {
+                'name': 'HYGENIC_KIT',
+                'enabled': True
+              },
+              {
+                'name': 'PRESS',
+                'enabled': True
+              },
+              {
+                'name': 'PLAID',
+                'enabled': True
+              },
+              {
+                'name': 'WITH_PETS',
+                'enabled': True
+              },
+              {
+                'name': 'MEAL_SELECTION',
+                'enabled': True
+              },
+              {
+                'name': 'MEAL_ADDITIONAL',
+                'enabled': False
+              }
+            ]
+          },
+          '92b1bc07763cf80af78a9fad021178a0': {
+            'changeability': False,
+            'refundability': True,
+            'carType': 'SEDENTARY',
+            'seatType': 'UNDEFINED',
+            'services': [
+              {
+                'name': 'WITH_PETS',
+                'enabled': True
+              },
+              {
+                'name': 'BUFFET',
+                'enabled': True
+              },
+              {
+                'name': 'MEDIA_ENTERTAINMENT',
+                'enabled': True
+              },
+              {
+                'name': 'AIR_CONDITIONING',
+                'enabled': True
+              },
+              {
+                'name': 'BIO_TOILET',
+                'enabled': True
+              },
+              {
+                'name': 'PRESS',
+                'enabled': True
+              },
+              {
+                'name': 'FOR_PEOPLE_WITH_CHILDREN',
+                'enabled': True
+              },
+              {
+                'name': 'MEAL_ADDITIONAL',
+                'enabled': False
+              }
+            ]
+          },
+          '9926e89812df060f7e77b43054b5103a': {
+            'changeability': False,
+            'refundability': True,
+            'carType': 'SEDENTARY',
+            'seatType': 'UNDEFINED',
+            'services': [
+              {
+                'name': 'FOR_PEOPLE_WITH_CHILDREN',
+                'enabled': True
+              },
+              {
+                'name': 'BUFFET',
+                'enabled': True
+              },
+              {
+                'name': 'MEDIA_ENTERTAINMENT',
+                'enabled': True
+              },
+              {
+                'name': 'AIR_CONDITIONING',
+                'enabled': True
+              },
+              {
+                'name': 'BIO_TOILET',
+                'enabled': True
+              },
+              {
+                'name': 'MEAL_ADDITIONAL',
+                'enabled': False
+              },
+              {
+                'name': 'PRESS',
+                'enabled': True
+              }
+            ]
+          },
+          'a865cb821914444241da4fefae1a59e2': {
+            'changeability': False,
+            'refundability': True,
+            'carType': 'RESERVED_SEAT',
+            'seatType': 'UNDEFINED',
+            'services': [
+              {
+                'name': 'AIR_CONDITIONING',
+                'enabled': True
+              },
+              {
+                'name': 'BIO_TOILET',
+                'enabled': True
+              },
+              {
+                'name': 'WITH_PETS',
+                'enabled': True
+              },
+              {
+                'name': 'BEDDING',
+                'enabled': False
+              }
+            ]
+          },
+          'b61c65d9b98f9f82edca2680176d3196': {
+            'changeability': False,
+            'refundability': True,
+            'carType': 'SEDENTARY',
+            'seatType': 'UNDEFINED',
+            'services': [
+              {
+                'name': 'MEAL',
+                'enabled': True
+              },
+              {
+                'name': 'BUFFET',
+                'enabled': True
+              },
+              {
+                'name': 'MEDIA_ENTERTAINMENT',
+                'enabled': True
+              },
+              {
+                'name': 'AIR_CONDITIONING',
+                'enabled': True
+              },
+              {
+                'name': 'BIO_TOILET',
+                'enabled': True
+              },
+              {
+                'name': 'HYGENIC_SHOWER',
+                'enabled': True
+              },
+              {
+                'name': 'HYGENIC_KIT',
+                'enabled': True
+              },
+              {
+                'name': 'PRESS',
+                'enabled': True
+              },
+              {
+                'name': 'PLAID',
+                'enabled': True
+              },
+              {
+                'name': 'MEAL_SELECTION',
+                'enabled': True
+              },
+              {
+                'name': 'MEAL_ADDITIONAL',
+                'enabled': False
+              }
+            ]
+          },
+          'c88fcbdc67e75279f123de02b8d9a27b': {
+            'changeability': False,
+            'refundability': True,
+            'carType': 'SEDENTARY',
+            'seatType': 'UNDEFINED',
+            'services': [
+              {
+                'name': 'MEAL',
+                'enabled': True
+              },
+              {
+                'name': 'BUFFET',
+                'enabled': True
+              },
+              {
+                'name': 'MEDIA_ENTERTAINMENT',
+                'enabled': True
+              },
+              {
+                'name': 'AIR_CONDITIONING',
+                'enabled': True
+              },
+              {
+                'name': 'BIO_TOILET',
+                'enabled': True
+              },
+              {
+                'name': 'HYGENIC_SHOWER',
+                'enabled': True
+              },
+              {
+                'name': 'HYGENIC_KIT',
+                'enabled': True
+              },
+              {
+                'name': 'PRESS',
+                'enabled': True
+              },
+              {
+                'name': 'PLAID',
+                'enabled': True
+              },
+              {
+                'name': 'WITH_PETS',
+                'enabled': True
+              },
+              {
+                'name': 'MEAL_SELECTION',
+                'enabled': True
+              },
+              {
+                'name': 'MEAL_ADDITIONAL',
+                'enabled': False
+              }
+            ]
+          },
+          'cf6533f9656a59a617d7526c2d0967a1': {
+            'changeability': False,
+            'refundability': True,
+            'carType': 'SOFT',
+            'seatType': 'UNDEFINED',
+            'services': [
+              {
+                'name': 'BEDDING',
+                'enabled': True
+              },
+              {
+                'name': 'AIR_CONDITIONING',
+                'enabled': True
+              },
+              {
+                'name': 'BIO_TOILET',
+                'enabled': True
+              },
+              {
+                'name': 'HYGENIC_SHOWER',
+                'enabled': True
+              },
+              {
+                'name': 'TV',
+                'enabled': True
+              },
+              {
+                'name': 'PRESS',
+                'enabled': True
+              },
+              {
+                'name': 'SHOWER_IN_COMPARTMENT',
+                'enabled': True
+              },
+              {
+                'name': 'WASHBASIN',
+                'enabled': True
+              },
+              {
+                'name': 'WITH_PETS',
+                'enabled': True
+              },
+              {
+                'name': 'IMPROVED_SERVICES',
+                'enabled': True
+              },
+              {
+                'name': 'MEDIA_ENTERTAINMENT',
+                'enabled': True
+              },
+              {
+                'name': 'HYGENIC_KIT',
+                'enabled': True
+              }
+            ]
+          },
+          'd297a5a9ccd7c5c72d3300700781a9e6': {
+            'changeability': False,
+            'refundability': True,
+            'carType': 'SEDENTARY',
+            'seatType': 'UNDEFINED',
+            'services': [
+              {
+                'name': 'AIR_CONDITIONING',
+                'enabled': True
+              },
+              {
+                'name': 'BIO_TOILET',
+                'enabled': True
+              },
+              {
+                'name': 'WITH_PETS',
+                'enabled': True
+              }
+            ]
+          },
+          'e58e3b6ac25e7065a5de965cac7d40b8': {
+            'changeability': False,
+            'refundability': True,
+            'carType': 'LUX',
+            'seatType': 'UNDEFINED',
+            'services': [
+              {
+                'name': 'BEDDING',
+                'enabled': True
+              },
+              {
+                'name': 'MEAL',
+                'enabled': True
+              },
+              {
+                'name': 'BUFFET',
+                'enabled': True
+              },
+              {
+                'name': 'MEDIA_ENTERTAINMENT',
+                'enabled': True
+              },
+              {
+                'name': 'AIR_CONDITIONING',
+                'enabled': True
+              },
+              {
+                'name': 'BIO_TOILET',
+                'enabled': True
+              },
+              {
+                'name': 'PRESS',
+                'enabled': True
+              },
+              {
+                'name': 'WITH_PETS',
+                'enabled': True
+              },
+              {
+                'name': 'IMPROVED_SERVICES',
+                'enabled': True
+              },
+              {
+                'name': 'MEAL_SELECTION',
+                'enabled': True
+              },
+              {
+                'name': 'MEAL_ADDITIONAL',
+                'enabled': False
+              },
+              {
+                'name': 'HYGENIC_KIT',
+                'enabled': True
+              }
+            ]
+          },
+          'ea54f3124eee4add71139dc4970e8eb5': {
+            'changeability': False,
+            'refundability': True,
+            'carType': 'SHARED',
+            'seatType': 'UNDEFINED',
+            'services': [
+              {
+                'name': 'AIR_CONDITIONING',
+                'enabled': True
+              },
+              {
+                'name': 'BIO_TOILET',
+                'enabled': True
+              },
+              {
+                'name': 'WITH_PETS',
+                'enabled': True
+              }
+            ]
+          },
+          'ec4cc55b2303c37137d9828bd29053e0': {
+            'changeability': False,
+            'refundability': True,
+            'carType': 'SEDENTARY',
+            'seatType': 'UNDEFINED',
+            'services': [
+              {
+                'name': 'WITH_PETS',
+                'enabled': True
+              },
+              {
+                'name': 'BUFFET',
+                'enabled': True
+              },
+              {
+                'name': 'AIR_CONDITIONING',
+                'enabled': True
+              },
+              {
+                'name': 'BIO_TOILET',
+                'enabled': True
+              },
+              {
+                'name': 'MEAL_ADDITIONAL',
+                'enabled': False
+              }
+            ]
+          },
+          'fc47914f1f0b7722b346538b12f37c11': {
+            'changeability': False,
+            'refundability': True,
+            'carType': 'SEDENTARY',
+            'seatType': 'UNDEFINED',
+            'services': [
+              {
+                'name': 'WITH_PETS',
+                'enabled': True
+              },
+              {
+                'name': 'AIR_CONDITIONING',
+                'enabled': True
+              },
+              {
+                'name': 'BIO_TOILET',
+                'enabled': True
+              },
+              {
+                'name': 'BUFFET',
+                'enabled': True
+              },
+              {
+                'name': 'MEDIA_ENTERTAINMENT',
+                'enabled': True
+              },
+              {
+                'name': 'PRESS',
+                'enabled': True
+              },
+              {
+                'name': 'FOR_PEOPLE_WITH_CHILDREN',
+                'enabled': True
+              },
+              {
+                'name': 'MEAL_ADDITIONAL',
+                'enabled': False
+              }
+            ]
+          }
+        },
+        'feedback': {
+          '086Ч': {
+            'rating': 6.8,
+            'reviewCount': 993
+          },
+          '738А': {
+            'rating': 9.1,
+            'reviewCount': 650
+          },
+          '740А': {
+            'rating': 9,
+            'reviewCount': 1117
+          },
+          '742В': {
+            'rating': 8.8,
+            'reviewCount': 648
+          }
+        }
+      },
+      'bus': {
+        'points': None,
+        'feedback': None,
+        'conditions': None,
+        'voyages': None
+      },
+      'common': {
+        'carriers': {
+          'e0a9de11e0748639f82cad0d2a79be96': {
+            'name': 'ФПК',
+            'displaySettings': {
+              'logo': {
+                'mobile': ''
+              }
+            },
+            'uri': ''
+          }
+        },
+        'cities': {
+          '2656859': {
+            'id': 2656859,
+            'countryId': 0,
+            'name': {
+              'accusative': 'Брянск',
+              'dative': 'Брянску',
+              'genitive': 'Брянска',
+              'instrumental': 'Брянском',
+              'nominative': 'Брянск',
+              'prepositional': 'Брянске'
+            }
+          },
+          '2657260': {
+            'id': 2657260,
+            'countryId': 0,
+            'name': {
+              'accusative': 'Москву',
+              'dative': 'Москве',
+              'genitive': 'Москвы',
+              'instrumental': 'Москвой',
+              'nominative': 'Москва',
+              'prepositional': 'Москве'
+            }
+          },
+          '3247043': {
+            'id': 3247043,
+            'countryId': 0,
+            'name': {
+              'accusative': 'Климово',
+              'dative': 'Климово',
+              'genitive': 'Климово',
+              'instrumental': 'Климово',
+              'nominative': 'Климово',
+              'prepositional': 'Климово'
+            }
+          }
+        },
+        'countries': {},
+        'routes': {
+          '1c1dd2c1cee4803ea01dcdff6782323b': {
+            'id': '1c1dd2c1cee4803ea01dcdff6782323b',
+            'segmentIds': [
+              'b8a1ed7ea7e739b92682349b46565cca'
+            ],
+            'transferIds': None
+          },
+          '33e51f1328625984403722da31e4c37a': {
+            'id': '33e51f1328625984403722da31e4c37a',
+            'segmentIds': [
+              'aa9f6b97981ee6c17ae024c5dbfe8d51'
+            ],
+            'transferIds': None
+          },
+          '3d817825f3eeaf7096d39e1c2524b18f': {
+            'id': '3d817825f3eeaf7096d39e1c2524b18f',
+            'segmentIds': [
+              'd81ae1dbb7e24e78684c32780d9b1e98'
+            ],
+            'transferIds': None
+          },
+          '5eaea158c9b771f66c725461ced0e42d': {
+            'id': '5eaea158c9b771f66c725461ced0e42d',
+            'segmentIds': [
+              '5b12fbc2f786419900d85d161fc1fdb2'
+            ],
+            'transferIds': None
+          }
+        },
+        'segments': {
+          '5b12fbc2f786419900d85d161fc1fdb2': {
+            'id': '5b12fbc2f786419900d85d161fc1fdb2',
+            'type': 'train',
+            'departureGeoPointId': 2957852,
+            'arrivalGeoPointId': 2957768,
+            'departureDateTime': '2024-06-04T00:20:00+03:00',
+            'arrivalDateTime': '2024-06-04T06:20:00+03:00',
+            'duration': 360,
+            'voyageNumber': 'ccc383f1d32ce09bcee0a69c7841657d',
+            'bookingGroupId': 0,
+            'carriers': [
+              {
+                'type': 'operating',
+                'id': 'e0a9de11e0748639f82cad0d2a79be96'
+              }
+            ],
+            'vehicleId': 'c042c98039b5e7beb36771f56b9cdc4b',
+            'departureTerminal': '',
+            'arrivalTerminal': ''
+          },
+          'aa9f6b97981ee6c17ae024c5dbfe8d51': {
+            'id': 'aa9f6b97981ee6c17ae024c5dbfe8d51',
+            'type': 'train',
+            'departureGeoPointId': 2957852,
+            'arrivalGeoPointId': 2957768,
+            'departureDateTime': '2024-06-03T19:02:00+03:00',
+            'arrivalDateTime': '2024-06-03T23:10:00+03:00',
+            'duration': 248,
+            'voyageNumber': 'ed9e972288b40c5050fa2b1ffa9133c1',
+            'bookingGroupId': 0,
+            'carriers': [
+              {
+                'type': 'operating',
+                'id': 'e0a9de11e0748639f82cad0d2a79be96'
+              }
+            ],
+            'vehicleId': 'ba0acfaf414f1d17ebdea9a012c127db',
+            'departureTerminal': '',
+            'arrivalTerminal': ''
+          },
+          'b8a1ed7ea7e739b92682349b46565cca': {
+            'id': 'b8a1ed7ea7e739b92682349b46565cca',
+            'type': 'train',
+            'departureGeoPointId': 2957852,
+            'arrivalGeoPointId': 2957768,
+            'departureDateTime': '2024-06-03T06:57:00+03:00',
+            'arrivalDateTime': '2024-06-03T11:05:00+03:00',
+            'duration': 248,
+            'voyageNumber': '03d06319afe8cf13ecdf910cd12c0e50',
+            'bookingGroupId': 0,
+            'carriers': [
+              {
+                'type': 'operating',
+                'id': 'e0a9de11e0748639f82cad0d2a79be96'
+              }
+            ],
+            'vehicleId': 'ba0acfaf414f1d17ebdea9a012c127db',
+            'departureTerminal': '',
+            'arrivalTerminal': ''
+          },
+          'd81ae1dbb7e24e78684c32780d9b1e98': {
+            'id': 'd81ae1dbb7e24e78684c32780d9b1e98',
+            'type': 'train',
+            'departureGeoPointId': 2957852,
+            'arrivalGeoPointId': 2957768,
+            'departureDateTime': '2024-06-03T13:23:00+03:00',
+            'arrivalDateTime': '2024-06-03T17:31:00+03:00',
+            'duration': 248,
+            'voyageNumber': '6dc24b8f6a056e4582a37b3f6681016d',
+            'bookingGroupId': 0,
+            'carriers': [
+              {
+                'type': 'operating',
+                'id': 'e0a9de11e0748639f82cad0d2a79be96'
+              }
+            ],
+            'vehicleId': 'ba0acfaf414f1d17ebdea9a012c127db',
+            'departureTerminal': '',
+            'arrivalTerminal': ''
+          }
+        },
+        'transfers': {},
+        'fareApplications': {
+          '022736be6741f525774c437a98bbf4fd': {
+            'hash': '022736be6741f525774c437a98bbf4fd',
+            'segmentHash': 'd81ae1dbb7e24e78684c32780d9b1e98',
+            'passengerType': 'ADULT',
+            'segmentConditions': 'e58e3b6ac25e7065a5de965cac7d40b8',
+            'seats': 0,
+            'serviceClass': '1Э'
+          },
+          '0525a59939046921310ff3ffc46e46d3': {
+            'hash': '0525a59939046921310ff3ffc46e46d3',
+            'segmentHash': '5b12fbc2f786419900d85d161fc1fdb2',
+            'passengerType': 'ADULT',
+            'segmentConditions': '6a58caacb31cf108403de4d7732ace93',
+            'seats': 0,
+            'serviceClass': '2К'
+          },
+          '13935ed1e1f8033208aa5de13c16a888': {
+            'hash': '13935ed1e1f8033208aa5de13c16a888',
+            'segmentHash': '5b12fbc2f786419900d85d161fc1fdb2',
+            'passengerType': 'ADULT',
+            'segmentConditions': '704f860a79d656be70a70765c4dbba6e',
+            'seats': 0,
+            'serviceClass': '3У'
+          },
+          '17538410c4b9983f59f45fe251101fa7': {
+            'hash': '17538410c4b9983f59f45fe251101fa7',
+            'segmentHash': 'aa9f6b97981ee6c17ae024c5dbfe8d51',
+            'passengerType': 'ADULT',
+            'segmentConditions': '5dbd56fa6356ff4190399375f515d2d0',
+            'seats': 0,
+            'serviceClass': '2С'
+          },
+          '1f3dae1a7d1998644315749c9c705ead': {
+            'hash': '1f3dae1a7d1998644315749c9c705ead',
+            'segmentHash': 'aa9f6b97981ee6c17ae024c5dbfe8d51',
+            'passengerType': 'ADULT',
+            'segmentConditions': '33defe0de5b218cdfd01af818f3cb83c',
+            'seats': 0,
+            'serviceClass': '1Э'
+          },
+          '263ef3190badc7cb33c5b03d09317fe8': {
+            'hash': '263ef3190badc7cb33c5b03d09317fe8',
+            'segmentHash': 'b8a1ed7ea7e739b92682349b46565cca',
+            'passengerType': 'ADULT',
+            'segmentConditions': '5dbd56fa6356ff4190399375f515d2d0',
+            'seats': 0,
+            'serviceClass': '2С'
+          },
+          '30f1c8ed38beb920ab54cb1ca15b996a': {
+            'hash': '30f1c8ed38beb920ab54cb1ca15b996a',
+            'segmentHash': '5b12fbc2f786419900d85d161fc1fdb2',
+            'passengerType': 'ADULT',
+            'segmentConditions': '48ea4f301b57a7f3bb3fe8dd35308db8',
+            'seats': 0,
+            'serviceClass': '2У'
+          },
+          '32b9973c8fe5e3879d0e308844f98b32': {
+            'hash': '32b9973c8fe5e3879d0e308844f98b32',
+            'segmentHash': 'b8a1ed7ea7e739b92682349b46565cca',
+            'passengerType': 'ADULT',
+            'segmentConditions': 'b61c65d9b98f9f82edca2680176d3196',
+            'seats': 0,
+            'serviceClass': '1Р'
+          },
+          '3cc242a05d49a8a080ff1a2c7e7b560c': {
+            'hash': '3cc242a05d49a8a080ff1a2c7e7b560c',
+            'segmentHash': 'd81ae1dbb7e24e78684c32780d9b1e98',
+            'passengerType': 'ADULT',
+            'segmentConditions': '9926e89812df060f7e77b43054b5103a',
+            'seats': 0,
+            'serviceClass': '2Р'
+          },
+          '3d7f64f2b330174865a87fac06fd9806': {
+            'hash': '3d7f64f2b330174865a87fac06fd9806',
+            'segmentHash': '5b12fbc2f786419900d85d161fc1fdb2',
+            'passengerType': 'ADULT',
+            'segmentConditions': '60fbac2009fa80ff26ece94b2c22f80c',
+            'seats': 0,
+            'serviceClass': '1У'
+          },
+          '41ca1086ad36b50f8b8b2baba6cafdaa': {
+            'hash': '41ca1086ad36b50f8b8b2baba6cafdaa',
+            'segmentHash': '5b12fbc2f786419900d85d161fc1fdb2',
+            'passengerType': 'ADULT',
+            'segmentConditions': 'a865cb821914444241da4fefae1a59e2',
+            'seats': 0,
+            'serviceClass': '3Б'
+          },
+          '571c85048683d06f09569b78de76eb93': {
+            'hash': '571c85048683d06f09569b78de76eb93',
+            'segmentHash': 'b8a1ed7ea7e739b92682349b46565cca',
+            'passengerType': 'ADULT',
+            'segmentConditions': 'ec4cc55b2303c37137d9828bd29053e0',
+            'seats': 0,
+            'serviceClass': '2Ж'
+          },
+          '593752bf490dfed5ebd786c0bfc42f63': {
+            'hash': '593752bf490dfed5ebd786c0bfc42f63',
+            'segmentHash': 'd81ae1dbb7e24e78684c32780d9b1e98',
+            'passengerType': 'ADULT',
+            'segmentConditions': 'ec4cc55b2303c37137d9828bd29053e0',
+            'seats': 0,
+            'serviceClass': '2Ж'
+          },
+          '5e456539da50a5f96f8ec692c5a9660d': {
+            'hash': '5e456539da50a5f96f8ec692c5a9660d',
+            'segmentHash': '5b12fbc2f786419900d85d161fc1fdb2',
+            'passengerType': 'ADULT',
+            'segmentConditions': 'ea54f3124eee4add71139dc4970e8eb5',
+            'seats': 0,
+            'serviceClass': '3Р'
+          },
+          '6d5e55d26e08f75195c40ededd410b03': {
+            'hash': '6d5e55d26e08f75195c40ededd410b03',
+            'segmentHash': '5b12fbc2f786419900d85d161fc1fdb2',
+            'passengerType': 'ADULT',
+            'segmentConditions': '62ab6c70df8e68639521f845c6f8a9f1',
+            'seats': 0,
+            'serviceClass': '1И'
+          },
+          '6d9ecf687ebd50c2702516004fb33c48': {
+            'hash': '6d9ecf687ebd50c2702516004fb33c48',
+            'segmentHash': '5b12fbc2f786419900d85d161fc1fdb2',
+            'passengerType': 'ADULT',
+            'segmentConditions': '8c469919c2f0a1f253001605c2253677',
+            'seats': 0,
+            'serviceClass': '3С'
+          },
+          '753ffac5b7f4ac2ef159e05e61f7b6f3': {
+            'hash': '753ffac5b7f4ac2ef159e05e61f7b6f3',
+            'segmentHash': 'd81ae1dbb7e24e78684c32780d9b1e98',
+            'passengerType': 'ADULT',
+            'segmentConditions': '5dbd56fa6356ff4190399375f515d2d0',
+            'seats': 0,
+            'serviceClass': '2С'
+          },
+          '772e86cdd1d4512cb13bae49fd8fd906': {
+            'hash': '772e86cdd1d4512cb13bae49fd8fd906',
+            'segmentHash': '5b12fbc2f786419900d85d161fc1fdb2',
+            'passengerType': 'ADULT',
+            'segmentConditions': '8aa0d7d3d511ba420610737da71c580a',
+            'seats': 0,
+            'serviceClass': '3Л'
+          },
+          '7b1227c5f2e4804941281f853ecf9d45': {
+            'hash': '7b1227c5f2e4804941281f853ecf9d45',
+            'segmentHash': 'd81ae1dbb7e24e78684c32780d9b1e98',
+            'passengerType': 'ADULT',
+            'segmentConditions': 'b61c65d9b98f9f82edca2680176d3196',
+            'seats': 0,
+            'serviceClass': '1Р'
+          },
+          '819d473834dd7af8cf5d83ca59d56d0b': {
+            'hash': '819d473834dd7af8cf5d83ca59d56d0b',
+            'segmentHash': '5b12fbc2f786419900d85d161fc1fdb2',
+            'passengerType': 'ADULT',
+            'segmentConditions': '689f6d936524ca54912b74a261bf698b',
+            'seats': 0,
+            'serviceClass': '2С'
+          },
+          '81c0f74ea6c1ce06a2fd3ae359cbcba8': {
+            'hash': '81c0f74ea6c1ce06a2fd3ae359cbcba8',
+            'segmentHash': 'aa9f6b97981ee6c17ae024c5dbfe8d51',
+            'passengerType': 'ADULT',
+            'segmentConditions': '2c53ed3b5412a40312abe205649d8e59',
+            'seats': 0,
+            'serviceClass': '2Ж'
+          },
+          '82d4fd4fc3fcdf9f3fde89194fae2922': {
+            'hash': '82d4fd4fc3fcdf9f3fde89194fae2922',
+            'segmentHash': 'b8a1ed7ea7e739b92682349b46565cca',
+            'passengerType': 'ADULT',
+            'segmentConditions': '0a09b4af861a34b819117117b5ad4ab8',
+            'seats': 0,
+            'serviceClass': '2Х'
+          },
+          '95b856e129d1de8355dba6ea5185520d': {
+            'hash': '95b856e129d1de8355dba6ea5185520d',
+            'segmentHash': 'aa9f6b97981ee6c17ae024c5dbfe8d51',
+            'passengerType': 'ADULT',
+            'segmentConditions': '00c9d40a7882313a21a498265dfb2679',
+            'seats': 0,
+            'serviceClass': '2Ф'
+          },
+          '97dfc9600bc0b9ae763770ac40dbe976': {
+            'hash': '97dfc9600bc0b9ae763770ac40dbe976',
+            'segmentHash': 'b8a1ed7ea7e739b92682349b46565cca',
+            'passengerType': 'ADULT',
+            'segmentConditions': '9926e89812df060f7e77b43054b5103a',
+            'seats': 0,
+            'serviceClass': '2Р'
+          },
+          '9b5b6bbf3fb6e7e76b9fbfa413d66895': {
+            'hash': '9b5b6bbf3fb6e7e76b9fbfa413d66895',
+            'segmentHash': 'aa9f6b97981ee6c17ae024c5dbfe8d51',
+            'passengerType': 'ADULT',
+            'segmentConditions': '11549a4c801e9b0386614b60469b32ae',
+            'seats': 0,
+            'serviceClass': '2Х'
+          },
+          '9fa636c75d7c88bb289bee9bb97950f6': {
+            'hash': '9fa636c75d7c88bb289bee9bb97950f6',
+            'segmentHash': '5b12fbc2f786419900d85d161fc1fdb2',
+            'passengerType': 'ADULT',
+            'segmentConditions': 'd297a5a9ccd7c5c72d3300700781a9e6',
+            'seats': 0,
+            'serviceClass': '2Ж'
+          },
+          'a344367edc45d88eb57cd5e5c7366089': {
+            'hash': 'a344367edc45d88eb57cd5e5c7366089',
+            'segmentHash': 'd81ae1dbb7e24e78684c32780d9b1e98',
+            'passengerType': 'ADULT',
+            'segmentConditions': '92b1bc07763cf80af78a9fad021178a0',
+            'seats': 0,
+            'serviceClass': '2Ю'
+          },
+          'afdcb3f8e894ca0e33dd58a6ab0b36f0': {
+            'hash': 'afdcb3f8e894ca0e33dd58a6ab0b36f0',
+            'segmentHash': 'b8a1ed7ea7e739b92682349b46565cca',
+            'passengerType': 'ADULT',
+            'segmentConditions': '06d6b7760fe9fe66e2c43fee5141d8a4',
+            'seats': 0,
+            'serviceClass': '2Ф'
+          },
+          'be888f20da19ae76e25485ba0d8c46ff': {
+            'hash': 'be888f20da19ae76e25485ba0d8c46ff',
+            'segmentHash': '5b12fbc2f786419900d85d161fc1fdb2',
+            'passengerType': 'ADULT',
+            'segmentConditions': '8587a9d35d5ac2db1f875620ad3b516f',
+            'seats': 0,
+            'serviceClass': '2Л'
+          },
+          'c15a2e59c7ff400183eaf55586e52893': {
+            'hash': 'c15a2e59c7ff400183eaf55586e52893',
+            'segmentHash': 'd81ae1dbb7e24e78684c32780d9b1e98',
+            'passengerType': 'ADULT',
+            'segmentConditions': '06d6b7760fe9fe66e2c43fee5141d8a4',
+            'seats': 0,
+            'serviceClass': '2Ф'
+          },
+          'c1f692793cb1a844a3134f652d5db5c8': {
+            'hash': 'c1f692793cb1a844a3134f652d5db5c8',
+            'segmentHash': 'aa9f6b97981ee6c17ae024c5dbfe8d51',
+            'passengerType': 'ADULT',
+            'segmentConditions': '8f354acddb71f2d2e36e2031da320c09',
+            'seats': 0,
+            'serviceClass': '1В'
+          },
+          'c9246b310e6049a0ead8cd782c396f22': {
+            'hash': 'c9246b310e6049a0ead8cd782c396f22',
+            'segmentHash': '5b12fbc2f786419900d85d161fc1fdb2',
+            'passengerType': 'ADULT',
+            'segmentConditions': 'cf6533f9656a59a617d7526c2d0967a1',
+            'seats': 0,
+            'serviceClass': '1А'
+          },
+          'd1abc1b88cc36e545bc0edf10a4a21d4': {
+            'hash': 'd1abc1b88cc36e545bc0edf10a4a21d4',
+            'segmentHash': 'aa9f6b97981ee6c17ae024c5dbfe8d51',
+            'passengerType': 'ADULT',
+            'segmentConditions': 'fc47914f1f0b7722b346538b12f37c11',
+            'seats': 0,
+            'serviceClass': '2Ю'
+          },
+          'd42ba3c4dad8e8e51c51705182da7d5e': {
+            'hash': 'd42ba3c4dad8e8e51c51705182da7d5e',
+            'segmentHash': 'aa9f6b97981ee6c17ae024c5dbfe8d51',
+            'passengerType': 'ADULT',
+            'segmentConditions': '40061219673dbf55d6e8fea69e578e2e',
+            'seats': 0,
+            'serviceClass': '2Р'
+          },
+          'd919f60ffb1bdf5e17b0a3ab0aa375f9': {
+            'hash': 'd919f60ffb1bdf5e17b0a3ab0aa375f9',
+            'segmentHash': 'b8a1ed7ea7e739b92682349b46565cca',
+            'passengerType': 'ADULT',
+            'segmentConditions': '8f354acddb71f2d2e36e2031da320c09',
+            'seats': 0,
+            'serviceClass': '1В'
+          },
+          'da20d9302a8594a869ae89caaf0e1d7b': {
+            'hash': 'da20d9302a8594a869ae89caaf0e1d7b',
+            'segmentHash': '5b12fbc2f786419900d85d161fc1fdb2',
+            'passengerType': 'ADULT',
+            'segmentConditions': '2d255434885b4e1551e596b978d16e3c',
+            'seats': 0,
+            'serviceClass': '3Э'
+          },
+          'db7e8908b2880d28f9b5163506ba3263': {
+            'hash': 'db7e8908b2880d28f9b5163506ba3263',
+            'segmentHash': '5b12fbc2f786419900d85d161fc1fdb2',
+            'passengerType': 'ADULT',
+            'segmentConditions': '6d1ef5046c6145b10e586818a745419e',
+            'seats': 0,
+            'serviceClass': '1Л'
+          },
+          'dc9cb2d849d4c7121140907b5912f9aa': {
+            'hash': 'dc9cb2d849d4c7121140907b5912f9aa',
+            'segmentHash': 'b8a1ed7ea7e739b92682349b46565cca',
+            'passengerType': 'ADULT',
+            'segmentConditions': '92b1bc07763cf80af78a9fad021178a0',
+            'seats': 0,
+            'serviceClass': '2Ю'
+          },
+          'e1968c531abd59b01e889862056404b9': {
+            'hash': 'e1968c531abd59b01e889862056404b9',
+            'segmentHash': 'aa9f6b97981ee6c17ae024c5dbfe8d51',
+            'passengerType': 'ADULT',
+            'segmentConditions': '6e87d99e3634378177a6073fca161feb',
+            'seats': 0,
+            'serviceClass': '1Р'
+          },
+          'e75f0d34d1c6d71ae74d096fb4ed2d86': {
+            'hash': 'e75f0d34d1c6d71ae74d096fb4ed2d86',
+            'segmentHash': 'd81ae1dbb7e24e78684c32780d9b1e98',
+            'passengerType': 'ADULT',
+            'segmentConditions': '11549a4c801e9b0386614b60469b32ae',
+            'seats': 0,
+            'serviceClass': '2Х'
+          },
+          'f10261732593053d26ef269d103f3c1a': {
+            'hash': 'f10261732593053d26ef269d103f3c1a',
+            'segmentHash': 'd81ae1dbb7e24e78684c32780d9b1e98',
+            'passengerType': 'ADULT',
+            'segmentConditions': 'c88fcbdc67e75279f123de02b8d9a27b',
+            'seats': 0,
+            'serviceClass': '1В'
+          },
+          'fea75c24799b50131fcab603f96a8090': {
+            'hash': 'fea75c24799b50131fcab603f96a8090',
+            'segmentHash': 'b8a1ed7ea7e739b92682349b46565cca',
+            'passengerType': 'ADULT',
+            'segmentConditions': 'e58e3b6ac25e7065a5de965cac7d40b8',
+            'seats': 0,
+            'serviceClass': '1Э'
+          }
+        },
+        'currency': None,
+        'bookingUpsales': {}
+      }
+    },
+    'offers': {
+      'actual': {
+        '0fa232b8bdfa85e9a1274a7a97f106c4': {
+          'id': '0fa232b8bdfa85e9a1274a7a97f106c4',
+          'routeIds': [
+            '5eaea158c9b771f66c725461ced0e42d'
+          ],
+          'offerVariants': [
+            {
+              'id': '868c79889302a0e474bb57a4ddbc92a1',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'approximate',
+                'value': {
+                  'amount': 262110,
+                  'currencyCode': 'RUB',
+                  'fraction': 100
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                '5b12fbc2f786419900d85d161fc1fdb2': [
+                  'be888f20da19ae76e25485ba0d8c46ff'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            },
+            {
+              'id': '237db15810f45eccc6d21927cc58c446',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'absent',
+                'value': {
+                  'amount': 0,
+                  'currencyCode': '',
+                  'fraction': 1
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                '5b12fbc2f786419900d85d161fc1fdb2': [
+                  '0525a59939046921310ff3ffc46e46d3'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            },
+            {
+              'id': 'ee9808ddb95f4dd11eb156ca3d512b58',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'approximate',
+                'value': {
+                  'amount': 301460,
+                  'currencyCode': 'RUB',
+                  'fraction': 100
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                '5b12fbc2f786419900d85d161fc1fdb2': [
+                  '30f1c8ed38beb920ab54cb1ca15b996a'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            },
+            {
+              'id': '68959382dd8d0d238ad5cc4cd62531ee',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'absent',
+                'value': {
+                  'amount': 0,
+                  'currencyCode': '',
+                  'fraction': 1
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                '5b12fbc2f786419900d85d161fc1fdb2': [
+                  'da20d9302a8594a869ae89caaf0e1d7b'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            },
+            {
+              'id': '0476d73c1b072624bebad5406806cc20',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'approximate',
+                'value': {
+                  'amount': 182910,
+                  'currencyCode': 'RUB',
+                  'fraction': 100
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                '5b12fbc2f786419900d85d161fc1fdb2': [
+                  '772e86cdd1d4512cb13bae49fd8fd906'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            },
+            {
+              'id': 'afb435bb29969a4aa745a4aab13c671f',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'approximate',
+                'value': {
+                  'amount': 190110,
+                  'currencyCode': 'RUB',
+                  'fraction': 100
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                '5b12fbc2f786419900d85d161fc1fdb2': [
+                  '13935ed1e1f8033208aa5de13c16a888'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            },
+            {
+              'id': 'd86071bed94e0380d3e88339de40dc64',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'absent',
+                'value': {
+                  'amount': 0,
+                  'currencyCode': '',
+                  'fraction': 1
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                '5b12fbc2f786419900d85d161fc1fdb2': [
+                  '41ca1086ad36b50f8b8b2baba6cafdaa'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            },
+            {
+              'id': '32fb576867a34d06dd8ef1730f257f12',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'approximate',
+                'value': {
+                  'amount': 108180,
+                  'currencyCode': 'RUB',
+                  'fraction': 100
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                '5b12fbc2f786419900d85d161fc1fdb2': [
+                  '819d473834dd7af8cf5d83ca59d56d0b'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            },
+            {
+              'id': 'c34dba22038472d4fe34d6e5d2397787',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'approximate',
+                'value': {
+                  'amount': 111980,
+                  'currencyCode': 'RUB',
+                  'fraction': 100
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                '5b12fbc2f786419900d85d161fc1fdb2': [
+                  '9fa636c75d7c88bb289bee9bb97950f6'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            },
+            {
+              'id': '924358d15f0e17ab5743474bdf75ee57',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'absent',
+                'value': {
+                  'amount': 0,
+                  'currencyCode': '',
+                  'fraction': 1
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                '5b12fbc2f786419900d85d161fc1fdb2': [
+                  '6d9ecf687ebd50c2702516004fb33c48'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            },
+            {
+              'id': 'a18dd9a97baedce10762c56758d66e5c',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'absent',
+                'value': {
+                  'amount': 0,
+                  'currencyCode': '',
+                  'fraction': 1
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                '5b12fbc2f786419900d85d161fc1fdb2': [
+                  '6d5e55d26e08f75195c40ededd410b03'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            },
+            {
+              'id': '3135afe37d1e67098383a13df4f9191e',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'absent',
+                'value': {
+                  'amount': 0,
+                  'currencyCode': '',
+                  'fraction': 1
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                '5b12fbc2f786419900d85d161fc1fdb2': [
+                  'c9246b310e6049a0ead8cd782c396f22'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            },
+            {
+              'id': '886bb5b8720bf233bcb2f6c98469f8a6',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'absent',
+                'value': {
+                  'amount': 0,
+                  'currencyCode': '',
+                  'fraction': 1
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                '5b12fbc2f786419900d85d161fc1fdb2': [
+                  '5e456539da50a5f96f8ec692c5a9660d'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            },
+            {
+              'id': '96cb5bb686a5a63dc06260f1d37f5689',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'absent',
+                'value': {
+                  'amount': 0,
+                  'currencyCode': '',
+                  'fraction': 1
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                '5b12fbc2f786419900d85d161fc1fdb2': [
+                  '3d7f64f2b330174865a87fac06fd9806'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            },
+            {
+              'id': '10c659c66849ede5251fd7f8a2199973',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'approximate',
+                'value': {
+                  'amount': 525290,
+                  'currencyCode': 'RUB',
+                  'fraction': 100
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                '5b12fbc2f786419900d85d161fc1fdb2': [
+                  'db7e8908b2880d28f9b5163506ba3263'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            }
+          ],
+          'warnings': []
+        },
+        '88b5ccbea579784b707dea838c907ee8': {
+          'id': '88b5ccbea579784b707dea838c907ee8',
+          'routeIds': [
+            '33e51f1328625984403722da31e4c37a'
+          ],
+          'offerVariants': [
+            {
+              'id': 'fa2146c8059332963e3c721458433325',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'approximate',
+                'value': {
+                  'amount': 150690,
+                  'currencyCode': 'RUB',
+                  'fraction': 100
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                'aa9f6b97981ee6c17ae024c5dbfe8d51': [
+                  'd1abc1b88cc36e545bc0edf10a4a21d4'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            },
+            {
+              'id': 'eb72cb4c607238a572a486a5212fd872',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'approximate',
+                'value': {
+                  'amount': 149890,
+                  'currencyCode': 'RUB',
+                  'fraction': 100
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                'aa9f6b97981ee6c17ae024c5dbfe8d51': [
+                  '17538410c4b9983f59f45fe251101fa7'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            },
+            {
+              'id': '428154c4b472daa51b8551b2d773f0a5',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'approximate',
+                'value': {
+                  'amount': 155290,
+                  'currencyCode': 'RUB',
+                  'fraction': 100
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                'aa9f6b97981ee6c17ae024c5dbfe8d51': [
+                  'd42ba3c4dad8e8e51c51705182da7d5e'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            },
+            {
+              'id': 'db2c5c905a0f0546948b41efbd971bb5',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'approximate',
+                'value': {
+                  'amount': 110380,
+                  'currencyCode': 'RUB',
+                  'fraction': 100
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                'aa9f6b97981ee6c17ae024c5dbfe8d51': [
+                  '81c0f74ea6c1ce06a2fd3ae359cbcba8'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            },
+            {
+              'id': '0bc1512f6a8c4bc44df88d567efd4049',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'approximate',
+                'value': {
+                  'amount': 261590,
+                  'currencyCode': 'RUB',
+                  'fraction': 100
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                'aa9f6b97981ee6c17ae024c5dbfe8d51': [
+                  'e1968c531abd59b01e889862056404b9'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            },
+            {
+              'id': '6b51f491250477cec10c42359f410e94',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'approximate',
+                'value': {
+                  'amount': 635890,
+                  'currencyCode': 'RUB',
+                  'fraction': 100
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                'aa9f6b97981ee6c17ae024c5dbfe8d51': [
+                  'c1f692793cb1a844a3134f652d5db5c8'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            },
+            {
+              'id': 'd52383ac665fd3490574b9d135bb6f25',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'absent',
+                'value': {
+                  'amount': 0,
+                  'currencyCode': '',
+                  'fraction': 1
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                'aa9f6b97981ee6c17ae024c5dbfe8d51': [
+                  '9b5b6bbf3fb6e7e76b9fbfa413d66895'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            },
+            {
+              'id': 'e7446e28e52d1a8d8d85eb0355d480e5',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'approximate',
+                'value': {
+                  'amount': 336070,
+                  'currencyCode': 'RUB',
+                  'fraction': 100
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                'aa9f6b97981ee6c17ae024c5dbfe8d51': [
+                  '95b856e129d1de8355dba6ea5185520d'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            },
+            {
+              'id': 'eb4a2994f7270117e7ca481ded35a0c3',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'approximate',
+                'value': {
+                  'amount': 897690,
+                  'currencyCode': 'RUB',
+                  'fraction': 100
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                'aa9f6b97981ee6c17ae024c5dbfe8d51': [
+                  '1f3dae1a7d1998644315749c9c705ead'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            }
+          ],
+          'warnings': []
+        },
+        'a623f7472a0e3059d79aab2409cb77a4': {
+          'id': 'a623f7472a0e3059d79aab2409cb77a4',
+          'routeIds': [
+            '3d817825f3eeaf7096d39e1c2524b18f'
+          ],
+          'offerVariants': [
+            {
+              'id': '9beaee44d4d2ec5492cb1fb383a0994e',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'approximate',
+                'value': {
+                  'amount': 165790,
+                  'currencyCode': 'RUB',
+                  'fraction': 100
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                'd81ae1dbb7e24e78684c32780d9b1e98': [
+                  '753ffac5b7f4ac2ef159e05e61f7b6f3'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            },
+            {
+              'id': 'cbd1f18bfdbd91246761b682a5566867',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'approximate',
+                'value': {
+                  'amount': 116880,
+                  'currencyCode': 'RUB',
+                  'fraction': 100
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                'd81ae1dbb7e24e78684c32780d9b1e98': [
+                  '593752bf490dfed5ebd786c0bfc42f63'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            },
+            {
+              'id': '395d6f5256e637cf47fd1064be3a4e60',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'approximate',
+                'value': {
+                  'amount': 274690,
+                  'currencyCode': 'RUB',
+                  'fraction': 100
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                'd81ae1dbb7e24e78684c32780d9b1e98': [
+                  '7b1227c5f2e4804941281f853ecf9d45'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            },
+            {
+              'id': '8453595dfb0c0575e896043df7aaab3a',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'approximate',
+                'value': {
+                  'amount': 168190,
+                  'currencyCode': 'RUB',
+                  'fraction': 100
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                'd81ae1dbb7e24e78684c32780d9b1e98': [
+                  'a344367edc45d88eb57cd5e5c7366089'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            },
+            {
+              'id': '101362ed90b3e97f85efa49b22dc9351',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'approximate',
+                'value': {
+                  'amount': 625690,
+                  'currencyCode': 'RUB',
+                  'fraction': 100
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                'd81ae1dbb7e24e78684c32780d9b1e98': [
+                  'f10261732593053d26ef269d103f3c1a'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            },
+            {
+              'id': 'ec734735ddd00932af7e326c79995cda',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'approximate',
+                'value': {
+                  'amount': 160990,
+                  'currencyCode': 'RUB',
+                  'fraction': 100
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                'd81ae1dbb7e24e78684c32780d9b1e98': [
+                  '3cc242a05d49a8a080ff1a2c7e7b560c'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            },
+            {
+              'id': '38d9d1aed0e86ed7e74ec0a8047d7843',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'approximate',
+                'value': {
+                  'amount': 931190,
+                  'currencyCode': 'RUB',
+                  'fraction': 100
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                'd81ae1dbb7e24e78684c32780d9b1e98': [
+                  '022736be6741f525774c437a98bbf4fd'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            },
+            {
+              'id': '3ec09db59dd7ad3414a2d948a8762ecd',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'absent',
+                'value': {
+                  'amount': 0,
+                  'currencyCode': '',
+                  'fraction': 1
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                'd81ae1dbb7e24e78684c32780d9b1e98': [
+                  'e75f0d34d1c6d71ae74d096fb4ed2d86'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            },
+            {
+              'id': 'd850d9d5fe6338fa158e0940f737ca0a',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'approximate',
+                'value': {
+                  'amount': 358570,
+                  'currencyCode': 'RUB',
+                  'fraction': 100
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                'd81ae1dbb7e24e78684c32780d9b1e98': [
+                  'c15a2e59c7ff400183eaf55586e52893'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            }
+          ],
+          'warnings': []
+        },
+        'c2de6107ad1984bb8d8db105bfe1bb6c': {
+          'id': 'c2de6107ad1984bb8d8db105bfe1bb6c',
+          'routeIds': [
+            '1c1dd2c1cee4803ea01dcdff6782323b'
+          ],
+          'offerVariants': [
+            {
+              'id': 'a6fb61c6dc25e0901f40f0c9411f65d3',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'approximate',
+                'value': {
+                  'amount': 160890,
+                  'currencyCode': 'RUB',
+                  'fraction': 100
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                'b8a1ed7ea7e739b92682349b46565cca': [
+                  '263ef3190badc7cb33c5b03d09317fe8'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            },
+            {
+              'id': '7f82c392ba8b52293862f81e4a9baa84',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'approximate',
+                'value': {
+                  'amount': 129890,
+                  'currencyCode': 'RUB',
+                  'fraction': 100
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                'b8a1ed7ea7e739b92682349b46565cca': [
+                  '571c85048683d06f09569b78de76eb93'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            },
+            {
+              'id': '11a6536e269b44a0caf7df8eee5730a2',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'approximate',
+                'value': {
+                  'amount': 640890,
+                  'currencyCode': 'RUB',
+                  'fraction': 100
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                'b8a1ed7ea7e739b92682349b46565cca': [
+                  'd919f60ffb1bdf5e17b0a3ab0aa375f9'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            },
+            {
+              'id': 'f1b55156f990794f289b8369071b341c',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'approximate',
+                'value': {
+                  'amount': 270690,
+                  'currencyCode': 'RUB',
+                  'fraction': 100
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                'b8a1ed7ea7e739b92682349b46565cca': [
+                  '32b9973c8fe5e3879d0e308844f98b32'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            },
+            {
+              'id': '2e0de3b3b67bed64f593691601d3d8e5',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'approximate',
+                'value': {
+                  'amount': 162790,
+                  'currencyCode': 'RUB',
+                  'fraction': 100
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                'b8a1ed7ea7e739b92682349b46565cca': [
+                  'dc9cb2d849d4c7121140907b5912f9aa'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            },
+            {
+              'id': 'f225c2e3e65adaadcbf34db3477a2ea6',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'approximate',
+                'value': {
+                  'amount': 165290,
+                  'currencyCode': 'RUB',
+                  'fraction': 100
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                'b8a1ed7ea7e739b92682349b46565cca': [
+                  '97dfc9600bc0b9ae763770ac40dbe976'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            },
+            {
+              'id': '63d4101571661301efeddb8f9f3836e7',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'absent',
+                'value': {
+                  'amount': 0,
+                  'currencyCode': '',
+                  'fraction': 1
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                'b8a1ed7ea7e739b92682349b46565cca': [
+                  '82d4fd4fc3fcdf9f3fde89194fae2922'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            },
+            {
+              'id': 'f3f23cab548cab11bdb043a8df70207b',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'approximate',
+                'value': {
+                  'amount': 370170,
+                  'currencyCode': 'RUB',
+                  'fraction': 100
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                'b8a1ed7ea7e739b92682349b46565cca': [
+                  'afdcb3f8e894ca0e33dd58a6ab0b36f0'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            },
+            {
+              'id': '432b0f6cf8c21bcaf23182bb7e5d8fd7',
+              'uuid': '',
+              'offerHash': '',
+              'price': {
+                'type': 'approximate',
+                'value': {
+                  'amount': 939890,
+                  'currencyCode': 'RUB',
+                  'fraction': 100
+                }
+              },
+              'priceOld': None,
+              'score': 0,
+              'fareApplications': {
+                'b8a1ed7ea7e739b92682349b46565cca': [
+                  'fea75c24799b50131fcab603f96a8090'
+                ]
+              },
+              'debugInfo': '',
+              'actions': [
+                {
+                  'type': 'NOTIFICATION'
+                }
+              ],
+              'status': {
+                'saleStatus': 'ALLOWED'
+              }
+            }
+          ],
+          'warnings': []
+        }
+      },
+      'past': {},
+      'future': {}
+    },
+    'requestDateTime': '2024-06-03T03:59:35+03:00',
+    'warnings': []
+  }
+]

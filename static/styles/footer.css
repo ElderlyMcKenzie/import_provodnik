@@ -1,0 +1,12 @@
+footer {
+    position: fixed;
+    color: white;
+    margin-top: 100px;
+    bottom: 0;
+    width: 100%;
+    font-size: 8pt;
+    text-align: right;
+    padding-left: 10pt;
+    padding-right: 10pt;
+    text-shadow: 0 0 3px black;
+}

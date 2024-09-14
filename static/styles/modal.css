@@ -1,0 +1,78 @@
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    border: 1px solid black;
+}
+
+#registrationFormModal {
+    height: 250px;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+section button.blue {
+    background-color: white;
+    color: black;
+    border: 1px solid black; /* Добавляем границу черного цвета */
+}
+
+section button.blue:hover {
+    background-color: #95a5a6;
+}
+
+.close button{
+    background: #333 !important;
+    color: white !important;
+}
+
+.close button:hover {
+    background: #555 !important;
+}
+
+.formModal {
+    display: contents;
+    
+}
+
+.modal input#email {
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.modal input#password {
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.modal input#name {
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
